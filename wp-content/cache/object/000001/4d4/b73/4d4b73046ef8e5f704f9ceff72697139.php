@@ -1,1 +1,1 @@
-ÉG÷R<?php exit; ?>a:1:{s:7:"content";b:1;}
+¹H÷R<?php exit; ?>a:1:{s:7:"content";b:1;}
