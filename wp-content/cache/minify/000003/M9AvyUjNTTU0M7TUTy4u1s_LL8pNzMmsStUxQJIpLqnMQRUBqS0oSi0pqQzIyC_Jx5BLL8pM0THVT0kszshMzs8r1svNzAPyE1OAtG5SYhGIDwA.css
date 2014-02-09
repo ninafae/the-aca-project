@@ -1,0 +1,662 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio[controls],canvas,video{display:inline-block;*display:inline;zoom:1}html{font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}body,button,input,select,textarea{font-family:sans-serif}img{margin:0;vertical-align:top;border:0;-ms-interpolation-mode:bicubic}embed,object{outline:none}a{color:#00e;outline:none;text-decoration:underline}a:hover,a:active{outline:0;text-decoration:none}h1,h2,h3,h4,h5,h6{font-weight:700;padding:0}h1{font-size:2.5em;line-height:1.2em;margin:0
+0 0.75em}h2{font-size:1.5em;line-height:1.2em;margin:0
+0 1em}h3{font-size:1.1666em;margin:0
+0 1.286em}h4{font-size:1em;margin:0
+0 1.5em}h5{font-size:0.8333em;margin:0
+0 1em}h6{font-size:0.666em;margin:0
+0 2.25em}p{padding:0;margin:0
+0 1.5em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em
+40px;quotes:none;border-left:1px solid #CCC;font-style:italic;margin-left:2em;padding:1.5em;margin-bottom:1.5em}dfn{font-style:italic}mark{background:#ff0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word;font-family:"Courier New",Courier,monospace,serif;margin:0
+0 1.5em;border-left:1px solid #CCC;margin-left:2em;padding-left:2em}q{quotes:none;font-style:italic}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em
+0;padding:0
+0 0 40px}ol{list-style-type:decimal;list-style-position:outside}ul{list-style-type:none;padding:0;margin:0
+0 1.5em 0}ul
+li{vertical-align:top;padding:0
+0 .5em 0;margin:0
+0 0 14px;list-style-type:square}ul
+ul{margin:.5em 0 -.5em 1em;padding:0}dd{margin:0
+0 0 40px}nav ul,
+nav
+ol{list-style:none}figure{margin:0}form{margin:0}fieldset{margin:0
+2px;padding:0.35em 0.625em 0.75em}legend{border:0;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;*overflow:visible}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top;font:101%/1.5em Arial,Helvetica,sans-serif}table{border-collapse:collapse;border-spacing:0}@charset utf-8;html,body{min-width:960px;height:100%}body{background:#ecebeb;color:#7e7473;font:100%/1.25em Arial,Helvetica,sans-serif;position:relative}#main{font-size: .75em;min-height:100%}h1,h2,h3,h4,h5,h6{font-weight:bold;margin:0
+0 1em 0}h1{font-family:'Luckiest Guy',cursive;font-size:36px;line-height:1em;font-weight:normal;margin:0
+0 .5em 0;color:#f5533e;text-transform:uppercase;text-shadow:3px 3px 5px rgba(0,0,0,0.1)}h2{font-size:30px;line-height:1.2em;font-family:'Open Sans',sans-serif;margin:0
+0 1em 0;font-weight:600;color:#6c6b6b;text-transform:uppercase;text-shadow:1px 1px #fff}h3{font-size:18px;line-height:1.2em;font-family:'Open Sans',sans-serif;margin:0
+0 .5em 0;font-weight:700;color:#919191;text-transform:uppercase}h4{font-size:15px;line-height:1.2em;font-family:'Open Sans',sans-serif;margin:0
+0 .5em 0;font-weight:700;color:#a5a1a0;text-transform:uppercase;text-shadow:1px 1px #fff}h5{font-size:1em}a{color:#6c6b6b}ul
+li{list-style-type:none;padding:0
+0 0 15px;margin:0
+0 10px 0;background:url(/east-millcreek/wp-content/themes/theme1619/images/marker.png) 0 7px no-repeat;text-transform:uppercase;font-weight:bold;font-size:11px}ul li
+a{color:#9f9b9a;text-decoration:none}ul li a:hover{color:#fd8927;text-decoration:underline}dl
+dt{background:url(/east-millcreek/wp-content/themes/theme1619/images/list-arrow.gif) no-repeat 0 3px;padding:0
+0 3px 32px;margin-bottom: .2em;font-size:18px;line-height:1.2em}dl
+dd{padding:0
+0 0 32px;margin:0
+0 1.5em 0}#header{height:204px;position:relative;z-index:99;background:#f6f5f5;border-bottom:1px solid #fff}.home
+#header{height:205px;border-bottom:none}.logo{position:absolute;left:-6px;top:26px}.logo h1, .logo
+h2{font-size:43px;line-height:1.2em;margin-bottom:0;padding:60px
+0 0 0}.logo h1 a, .logo h2
+a{color:#6c6b6b;text-decoration:none}.logo
+.tagline{font-size:10px;text-transform:uppercase}.tooltip{background:none repeat scroll 0 0 #252525;border:1px
+solid #000;color:#EEE;display:none;font-size:11px;line-height:1.2em;margin:5px
+0 0;padding:5px;z-index:99}.top-box{background:#fcfbfb;border:1px
+solid #fff;border-top:6px solid #e7e6e6;padding:17px
+20px 30px 20px;text-align:center;-webkit-box-shadow:inset 0 0 50px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 0 50px rgba(0, 0, 0, 0.1);box-shadow:inset 0 0 50px rgba(0,0,0,0.1)}.top-box:before{content:"";position:absolute;left:0;right:0;bottom:-22px;height:20px;background:url(/east-millcreek/wp-content/themes/theme1619/images/reflextion.gif) 0 0 repeat-x}.icon-holder{padding-bottom:23px;background:url(/east-millcreek/wp-content/themes/theme1619/images/button-shadow.png) 50% 100% no-repeat;margin-bottom:11px}.top-box
+h3{margin-bottom:1.2em}.top-box:hover{border-top-color:#fd8927}.box-text{margin-bottom:22px}#slider-wrapper{height:519px;overflow:hidden;position:relative;background:#f6f5f5;border-bottom:1px solid #fff}#slider{position:relative;width:940px;height:439px;background:url(/east-millcreek/wp-content/themes/theme1619/images/ajax-loader.gif) no-repeat 50% 50%}#slider
+img{position:absolute;top:0px;left:0px;display:none}#slider
+a{border:0;display:block}.nivoSlider{position:relative}.nivoSlider
+img{position:absolute;top:0px;left:0px}.nivoSlider a.nivo-imageLink{position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:60;display:none}.nivo-slice{display:block;position:absolute;z-index:50;height:100%}.nivo-box{display:block;position:absolute;z-index:5}.nivo-caption{position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8;width:100%;z-index:89}.nivo-caption .nivo-caption-inner{padding:0;margin:0}.nivo-caption
+a{display:inline !important}.nivo-html-caption{display:none}.nivo-directionNav
+a{position:absolute;top:45%;z-index:99;cursor:pointer}.nivo-prevNav{left:0px}.nivo-nextNav{right:0px}.nivo-controlNav{position:absolute;width:940px;height:11px;left:0;bottom:30px;text-align:center}.nivo-controlNav
+a{position:relative;z-index:99;cursor:pointer;display:inline-block !important;width:11px;height:11px;overflow:hidden;background:url(/east-millcreek/wp-content/themes/theme1619/images/bullets.png) 100% 0 no-repeat;font-size:0;line-height:0;margin:0
+4px 0 5px;vertical-align:top}.nivo-controlNav a:hover, .nivo-controlNav
+a.active{background-position:0 0}.nivo-directionNav
+a{position:absolute;display:block;width:55px;height:52px;text-indent:-9999px;border:0;top:50%;margin-top:-46px;background:url(/east-millcreek/wp-content/themes/theme1619/images/direction_nav.png) no-repeat 0 0}a.nivo-nextNav{right:-7px;background-position:-54px 0}a.nivo-nextNav:hover{background-position:-54px -52px}a.nivo-prevNav{left:-7px;background-position:0 0}a.nivo-prevNav:hover{background-position:0 -52px}#slider .nivo-controlNav
+img{display:inline;position:relative;margin-right:10px;width:120px;height:auto}nav.primary{position:relative;z-index:2;float:right;display:none}.sf-menu, .sf-menu
+*{margin:0;padding:0;list-style:none}.sf-menu{line-height:1.0}.sf-menu
+ul{position:absolute;top:-999em;width:148px}.sf-menu ul
+li{width:100%}.sf-menu li:hover{visibility:inherit}.sf-menu
+li{float:left;position:relative}.sf-menu
+a{display:block;position:relative}.sf-menu li:hover ul, .sf-menu li.sfHover
+ul{left:0;top:88px;z-index:99}ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li
+ul{top:-999em}ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover
+ul{left:151px;top:0}ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li
+ul{top:-999em}ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover
+ul{left:151px;top:0}.sf-menu{max-width:725px;margin-top:62px;float:right;position:relative;z-index:3}nav.primary:before{content:"";display:block;position:absolute;left:-18px;bottom:-26px;width:379px;height:57px;background:url(/east-millcreek/wp-content/themes/theme1619/images/nav-left-shadow.png) 0 0 no-repeat}nav.primary:after{content:"";display:block;position:absolute;right:-9px;bottom:-26px;width:330px;height:57px;background:url(/east-millcreek/wp-content/themes/theme1619/images/nav-right-shadow.png) 0 0 no-repeat}.sf-menu
+a{text-decoration:none !important}.sf-menu
+li{background:none;font-weight:normal}.sf-menu>li{background:url(/east-millcreek/wp-content/themes/theme1619/images/sf-right.png) 100% 0 no-repeat;padding-right:6px;border-top:5px solid #e4e3e3}.sf-menu>li>a:before{content:"";display:block;position:absolute;left:0;top:35px;width:1px;height:16px;background:url(/east-millcreek/wp-content/themes/theme1619/images/divider.png) 0 0 no-repeat;z-index:9}.sf-menu>li:first-child>a:before{background:none}.sf-menu>li>a{background:url(/east-millcreek/wp-content/themes/theme1619/images/sf-left.png) 0 0 no-repeat;line-height:87px;padding:0
+21px;font-size:20px;color:#a5a2a1;text-decoration:none;font-family:'Luckiest Guy',cursive;text-transform:uppercase}.sf-menu>li:hover,.sf-menu>li.sfHover,.sf-menu>li.current-menu-item{border-color:#fd8927}.sf-menu>li>a:hover,.sf-menu>li.sfHover>a,.sf-menu>li.current-menu-item>a{color:#fd8927}.sf-menu
+ul{background:#eee;border:1px
+solid #fbfbfb}.sf-menu li
+li{float:none}.sf-menu li li
+a{font-size:12px;font-family:'Open Sans',sans-serif;font-weight:700;text-transform:uppercase;padding:6px
+10px 7px 10px;color:#9f9b9a;text-decoration:none;text-shadow:1px 1px #fff}.sf-menu li li a:hover, .sf-menu li li.sfHover > a, .sf-menu li li.current-menu-item>a{color:#fd8927}.sf-menu li:hover,
+.sf-menu li.sfHover,
+.sf-menu a:focus,
+.sf-menu a:hover,
+.sf-menu a:active,
+.sf-menu li.current-menu-item>a{outline:0}.sf-menu a.sf-with-ul{padding-right:2.25em;min-width:1px}.sf-sub-indicator{position:absolute;display:block;right: .75em;top:1.05em;width:10px;height:10px;text-indent:-999em;overflow:hidden;background:url(/east-millcreek/wp-content/themes/theme1619/images/arrows-ffffff.png) no-repeat -10px -100px}a>.sf-sub-indicator{top: .8em;background-position:0 -100px}a:focus>.sf-sub-indicator,a:hover>.sf-sub-indicator,a:active>.sf-sub-indicator,li:hover>a>.sf-sub-indicator,li.sfHover>a>.sf-sub-indicator{background-position:-10px -100px}.sf-menu ul .sf-sub-indicator{background-position:-10px 0}.sf-menu ul a>.sf-sub-indicator{background-position:0 0}.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover>a>.sf-sub-indicator{background-position:-10px 0}.sf-shadow
+ul{background:url(/east-millcreek/wp-content/themes/theme1619/images/shadow.png) no-repeat bottom right;padding:0
+8px 9px 0;-moz-border-radius-bottomleft:17px;-moz-border-radius-topright:17px;-webkit-border-top-right-radius:17px;-webkit-border-bottom-left-radius:17px}.sf-shadow ul.sf-shadow-off{background:transparent}#top-search{position:absolute;right:0;top:15px}#top-search .input-search{width:160px;margin-right:10px}#top-search
+#submit{cursor:pointer;margin:0}.primary_content_wrap{position:relative;z-index:1;padding-bottom:145px}#content{padding:40px
+0 0 0}#content.left{float:right !important}#before_content_area{position:relative;margin-top:-81px;padding-bottom:57px}#home_content_area{background:url(/east-millcreek/wp-content/themes/theme1619/images/home-bg.jpg) 10px 3px no-repeat}#home_content_area
+h1{margin-bottom:5px}#home_content_area
+.textwidget{padding-right:10px}#home_content_area .textwidget
+h4{margin-bottom:28px}#home_content_area
+h2{margin-bottom: .5em}h2#comments{padding-top:25px;margin-bottom:0}.commentlist{list-style-type:none;padding:0
+0 40px 0;margin:0}li.comment{list-style-type:none;overflow:hidden;background:none;padding:0;margin:0;font-size:1em;text-transform:none;font-weight:normal}li.comment .comment-body{padding:20px
+24px 20px 140px;position:relative;zoom:1;background:#e2e0e0;margin-top:10px;min-height:100px}.comment-author{padding:0;color:#9f9b9a;font-weight:bold;text-transform:uppercase;font-size:11px}.comment-author
+cite{font-style:normal}.comment-meta{font-size:11px;color:#9f9b9a;text-transform:uppercase;font-weight:bold;margin-bottom:1.5em}.comment-meta
+a{color:#9f9b9a;text-decoration:none}.comment-meta a:hover{color:#fd8927;text-decoration:underline}li.comment
+.avatar{float:none;margin:0;position:absolute;left:20px;top:20px;border:1px
+solid #fff;vertical-align:top;overflow:hidden}li.comment
+.avatar{display:block;vertical-align:top;overflow:hidden}.commentlist
+ul.children{margin:0
+0 0 30px;overflow:hidden}.reply{text-align:right;margin-top:-20px}.allowed_tags{background:#eee;padding:15px;font-size:11px;font-family:"Courier New",Courier,monospace;color:#666}.allowed_tags
+strong{font-family:Tahoma,Geneva,sans-serif}#respond{padding:1em
+0 0 0}#respond
+h2{margin-bottom: .4em}.cancel-comment-reply{padding:0
+0 12px 0}.cancel-comment-reply
+a{font-size:10px;text-transform:uppercase;color:red;text-decoration:none}.cancel-comment-reply a:hover{text-decoration:underline;color:red}.post-holder{margin-bottom:22px;position:relative;padding-bottom:10px}.post-holder .entry-title{font-size:15px;font-weight:700;margin-bottom: .5em}.post-holder .entry-title
+a{text-decoration:none;color:#9f9b9a}.post-holder .entry-title a:hover{color:#fd8927}.post-holder.single-post{margin-bottom:30px;overflow:hidden;width:100%}.featured-thumbnail{position:relative;float:left;margin:2px
+20px 10px 0;border:1px
+solid #fff}.featured-thumbnail
+img{float:left}.featured-thumbnail.small
+img{padding:4px}.featured-thumbnail.large{margin-right:0;overflow:hidden;margin-bottom:1.5em}.featured-thumbnail.large
+img{max-width:100%;height:auto}.post-content
+.excerpt{margin-bottom:2em}.pagination
+a{display:inline-block;padding:0
+5px;background:#eee}.post-meta{margin-bottom:20px}.post-meta
+a{color:#7a706e;text-decoration:none}.post-meta a:hover{color:#fd8927;text-decoration:underline}.post-meta
+.ico{display:inline-block;padding:0
+8px 0 21px}.post-meta
+.date{background:url(/east-millcreek/wp-content/themes/theme1619/images/ico-date.png) 0 3px no-repeat}.post-meta
+.author{background:url(/east-millcreek/wp-content/themes/theme1619/images/ico-author.png) 0 3px no-repeat}.post-meta
+.comments{background:url(/east-millcreek/wp-content/themes/theme1619/images/ico-comment.png) 0 3px no-repeat}p.gravatar{float:left;margin-right:20px}.alignleft{border:1px
+solid #fff;float:left;margin:0
+20px 10px 0}.alignright{border:1px
+solid #fff;float:right;margin:0
+0 10px 20px}.aligncenter{border:1px
+solid #fff;text-align:center;margin:0
+auto}.alignnone{border:1px
+solid #fff;margin:0
+0 10px 0}article .post-content
+img{max-width:710px}.frame{padding:7px;background:#fff;border:1px
+solid #dbdbdb;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-align:center}.frame img.alignleft, .frame
+img.alignright{margin:0;padding:0;border:none}.wp-pagenavi{clear:both;overflow:hidden}.wp-pagenavi a, .wp-pagenavi
+span{text-decoration:none;padding:2px
+4px;margin-right:5px;display:inline-block;font-size:15px;color:#9f9b9a;text-shadow:1px 1px #fff;font-family:'Open Sans',sans-serif;font-weight:700}.wp-pagenavi a:hover, .wp-pagenavi
+span.current{color:#fd8927}.wp-pagenavi .nextpostslink,
+.wp-pagenavi .previouspostslink,
+.wp-pagenavi .last,
+.wp-pagenavi
+.first{display:inline-block;position:relative;padding:6px
+15px;font-size:14px;font-family:'Open Sans',sans-serif;font-weight:700;background:#676767 url(/east-millcreek/wp-content/themes/theme1619/images/button-bg.gif) 0 0 repeat-x;color:#fff;text-transform:uppercase;text-decoration:none;text-shadow:none;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}.wp-pagenavi .nextpostslink:hover,
+.wp-pagenavi .previouspostslink:hover,
+.wp-pagenavi .last:hover,
+.wp-pagenavi .first:hover{color:#fff;background:#fd9b2d;background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #fd9b2d), color-stop(1, #fc7821));background:-ms-linear-gradient(bottom, #fd9b2d, #fc7821);background:-moz-linear-gradient(center bottom, #fd9b2d 0%, #fc7821 100%)}.wp-pagenavi .nextpostslink, .wp-pagenavi
+.last{margin-right:10px}.wp-pagenavi .nextpostslink, .wp-pagenavi
+.first{margin-left:10px}.wp-pagenavi
+span.current{font-weight:bold}.wp-pagenavi
+.pages{float:right;border:none;color:#999}nav.oldernewer{width:100%;overflow:hidden;margin-bottom:1.5em}.older{float:left}.newer{float:right}.gallery_post{list-style-type:none;padding:0;margin:0
+0 1em 0;width:100%;overflow:hidden}.gallery_post
+.g_item{overflow:hidden;display:none}.gallery_post .g_item:first-child{display:block}.gallery_post .g_item .featured-thumbnail{float:none;margin:0}.gallery_post .g_item .featured-thumbnail
+img{float:none}.g_pagination{text-align:left;overflow:hidden}.g_pagination
+ul{list-style-type:none;margin:0;padding: .5em 0;overflow:hidden}.g_pagination ul
+li{padding:0
+5px 0 0;display:inline;margin:0}.g_pagination ul li
+a{display:inline-block;text-decoration:none;width:10px;height:10px;background:#000;font-size:0;line-height:0;border-radius:5px;vertical-align:top}.g_pagination li.activeSlide a, .g_pagination li a:hover{background:#999}#post-author{overflow:hidden;border:1px
+solid #dbdbdb;padding:20px;margin-bottom:2em}#author-link{margin-top:1.5em}#post-author
+.gravatar{margin:0
+20px 0 0}#post-author .gravatar
+img{background:#fff;border:1px
+solid #dbdbdb;padding:5px}#recent-author-posts{margin-bottom:3em}.author-info{width:100%;overflow:hidden;margin-bottom:3em;padding-bottom:2em;border-bottom:1px solid #eee}.author-info
+.avatar{margin:0
+20px 0 0}.author-info .avatar
+img{float:left;background:#fff;padding:7px;border:1px
+solid #dbdbdb}.author-meta{margin-bottom:20px;overflow:hidden;width:100%}.author-meta
+p.gravatar{margin:0}#error404{padding:30px
+0 100px 0}.error404-num{font-size:250px;line-height:1.2em;color:#999;text-align:center;font-family:'Luckiest Guy',cursive}#error404
+hgroup{margin:0
+0 2em 0;padding-top:50px}#error404 hgroup
+h1{font-size:3em;margin-bottom: .2em}.latestwork{width:100%;overflow:hidden;list-style-type:none;padding:0;margin:0}.latestwork
+li{float:left;margin-right:20px}.header-title{margin-bottom:2.5em}.header-title
+h1{margin-bottom: .1em;font-family:'Open Sans',sans-serif;text-shadow:1px 1px #fff;font-size:30px;line-height:1.2em;color:#6c6b6b;text-transform:uppercase;font-weight:600}.header-title .page-desc{font-size: .91em;color:#999}#gallery
+.portfolio{width:100%;overflow:hidden;list-style-type:none;padding:0;margin:0}#gallery .portfolio
+li{list-style-type:none;display:-moz-inline-box;display:inline-block;zoom:1;vertical-align:top;width:300px;margin:0
+16px 50px 0;position:relative;background:none;padding:0;font-size:1em;text-transform:none;font-weight:normal}* + html #gallery .portfolio
+li{display:inline}#gallery .portfolio
+li.nomargin{margin-right:0 !important}#gallery .portfolio li span.image-border{display:block;border:1px
+solid #fff;width:298px;height:158px;position:relative}#gallery .portfolio li a.image-wrap{display:block;overflow:hidden;width:298px;height:158px;position:relative;background:#f6f5f5 url(/east-millcreek/wp-content/themes/theme1619/images/ajax-loader.gif) 50% 50% no-repeat;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;transition:all 0.2s ease-out}#gallery .portfolio li a.image-wrap
+img{float:left}#gallery .portfolio .folio-desc{margin-bottom:0;padding:1.5em 0 0 0}#gallery .portfolio .folio-desc h4 a:hover{text-decoration:none}#gallery .portfolio
+p.excerpt{padding:0}.zoom-icon{display:block;position:absolute;left:0;top:0;right:0;bottom:0;cursor:pointer;background:rgba(0, 0, 0, 0.4);-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;opacity:0}.no-rgba .zoom-icon{background:url(/east-millcreek/wp-content/themes/theme1619/images/black-opacity-60.png);visibility:hidden}.zoom-icon:before{content:"";display:block;position:absolute;left:50%;top:50%;width:43px;height:62px;margin:-31px 0 0 -21px;background:url(/east-millcreek/wp-content/themes/theme1619/images/magnify.png) 50% 50% no-repeat}.image-wrap:hover .zoom-icon{opacity:1}.no-rgba .image-wrap:hover .zoom-icon{visibility:visible}#gallery.one_column .portfolio
+li{width:100%;margin-right:0;margin-left:0}#gallery.one_column .portfolio li span.image-border{width:538px;height:278px;float:left}#gallery.one_column .portfolio li a.image-wrap{width:538px;height:278px}#gallery.one_column .folio-desc{float:left;padding:0;margin:0
+0 0 20px;overflow:hidden;width:365px}#gallery.two_columns .portfolio
+li{width:460px}#gallery.two_columns .portfolio li span.image-border{width:458px;height:238px}#gallery.two_columns .portfolio li a.image-wrap{width:458px;height:238px}#gallery.four_columns .portfolio
+li{width:220px}#gallery.four_columns .portfolio li span.image-border{width:218px;height:118px}#gallery.four_columns .portfolio li a.image-wrap{width:218px;height:118px}#sidebar{padding:40px
+0 0 0}.widget{margin-bottom:60px}#sidebar
+h3{margin-bottom: .7em;text-shadow:1px 1px #fff;font-size:30px;line-height:1.2em;color:#6c6b6b;text-transform:uppercase;font-weight:600}#calendar_wrap{padding:0}#wp-calendar{width:100%}#wp-calendar
+caption{text-align:center}#wp-calendar
+td{text-align:center;padding:6px
+0;border:none}#wp-calendar
+caption{font-size:16px;color:#000;font-weight:bold;padding:4px
+0;margin-bottom:5px}#wp-calendar thead
+th{padding:7px
+0;font-size:14px;background:#fff;color:#000;text-align:center}#wp-calendar
+#prev{text-align:left}#wp-calendar
+#next{text-align:right}.archive-lists
+h4{margin-bottom:1.5}.archive-lists
+ul{margin-bottom:2em}.faq_list
+dt{color:#666;position:relative;padding:0
+0 5px 28px;font-size:15px;font-weight:normal;margin:0;background:none}.faq_list
+span.marker{display:block;position:absolute;left:0;top:0;font-size:15px;color:#333;font-weight:bold}.faq_list
+dd{padding:0
+0 0 28px;position:relative;margin:0
+0 2em 0;color:#b2b2b2}.faq_list dd
+.marker{top:3px}ul.recentcomments{padding:0;margin:0}ul.recentcomments
+li{border-top:1px solid #c6c6c6;padding:25px
+0 25px 0;margin:0;border-bottom:none;background:none;overflow:hidden;list-style-type:none;font-weight:normal;font-size:1em;text-transform:none}ul.recentcomments li:first-child{padding-top:0;border-top:none}ul.recentcomments li
+img{float:left;margin:0
+12px 0 0}ul.recentcomments .comment-body{padding:15px
+0 0 0}ul.recentcomments .comment-body
+a{text-decoration:none;color:#96999d}ul.recentcomments .comment-body a:hover{color:#000;text-decoration:underline}ul.recentcomments li
+h4{margin-bottom: .1em}ul.recentcomments li h4
+a{text-decoration:none}ul.recentcomments li h4 a:hover{color:#000}ul.recentcomments li
+small{font-size:11px;color:#6a6a6a}.post_list{list-style-type:none;padding:0;margin:0}.post_list
+li{list-style-type:none;overflow:hidden;padding-top:1.5em;padding-bottom:1.5em;border-top:1px solid #dbdbdb;margin:0;background:none;font-size:1em;font-weight:normal;text-transform:none}.post_list li:first-child{border:none;padding-top:0}.post_list li .featured-thumbnail
+img{max-width:120px;height:auto}.ie8 .post_list li .featured-thumbnail
+img{max-width:none}.popular-posts{list-style-type:none;padding:0;margin:0}.popular-posts
+li{overflow:hidden;margin:0
+0 2em 0;background:none;padding:0;font-size:1em;text-transform:none;font-weight:normal}.popular-posts li .post-thumb{float:left;margin-right:20px;width:100px;height:100px;overflow:hidden;padding:1px;border:1px
+solid #dbdbdb}.popular-posts li .post-thumb
+.thumbnail{width:100%;height:auto}.popular-posts li .post-thumb.empty-thumb{background:url(/east-millcreek/wp-content/themes/theme1619/images/empty_thumb.gif) no-repeat 50% 50% #ececec}.popular-posts li
+h5{font-size:1em;margin-bottom: .5em}.popular-posts li
+.excerpt{margin-bottom: .8em}.post_cycle{padding:0;margin:0}.post_cycle
+.cycle_item{display:none}.post_cycle .cycle_item:first{display:block}.folio_cycle{list-style-type:none;padding:0;margin:0;width:100%;overflow:hidden}.folio_cycle
+.folio_item{overflow:hidden;display:none}.folio_cycle .folio_item:first{display:block}.folio_cycle .folio_item .featured-thumbnail{float:none;margin:0
+0 15px 0}.folio_cycle .folio_item .featured-thumbnail
+img{float:none}#folio-controls{text-align:center;overflow:hidden}#folio-controls
+ul{list-style-type:none;margin:0;padding:0}#folio-controls ul
+li{padding:0
+5px 0 0;margin:0;display:inline;background:none}#folio-controls ul li
+a{display:inline-block;text-decoration:none;width:9px;height:9px;background:#000;font-size:0;line-height:0;border-radius:5px}#folio-controls ul li a:hover{background:#999}.testimonials{padding:0;margin:0}.testimonials
+div.testi_item{padding:0;margin:0
+0 2em 0;background:none}.testimonials div.testi_item
+blockquote{display:block;position:relative;margin:0;padding:30px;background:#dbdbdb;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}.testimonials div.testi_item blockquote:before{content:"";display:block;position:absolute;left:65px;bottom:-20px;width:0;height:0;border-left:20px solid transparent;border-right:0 solid transparent;border-top:20px solid #dbdbdb}.testimonials div.testi_item blockquote:after{content:"";display:block;position:absolute;left:20px;top:10px;width:41px;height:38px;background:url(/east-millcreek/wp-content/themes/theme1619/images/quotes.png) 0 0 no-repeat}.testimonials div.testi_item blockquote
+a{text-decoration:none;color:#4e4e4e;display:block;font-style:normal;position:relative}.testimonials div.testi_item blockquote a:hover{color:#fff}.name-testi{padding:12px
+0 0 0;text-align:right;display:block}.name-testi
+a{font-weight:normal}.testimonials
+.thumb{float:left;margin-right:20px}#testi-cycle
+.testi_item{display:none}#testi-cycle .testi_item:first{display:block}#testi-controls{text-align:center;overflow:hidden}#testi-controls
+ul{list-style-type:none;margin:0;padding:0}#testi-controls ul
+li{padding:0;margin:0
+2px 0 0;display:inline-block}* + html #testi-controls ul
+li{display:inline;zoom:1}.latestpost{list-style-type:none;margin:0;padding:0
+0 10px 0}.latestpost
+li{position:relative;background:none;padding:12px
+0 12px 0;margin:0;list-style-type:none;font-weight:normal;font-size:1em;text-transform:none;border-top:1px solid #d8d3ce;overflow:hidden}.latestpost li:first-child{border-top:none;padding-top:0}.latestpost li .date-holder{position:absolute;left:0;top:12px;width:50px;height:50px;background:#fd8927;color:#fff;text-transform:uppercase;text-align:center;font-family:'Open Sans',sans-serif;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}.latestpost li:first-child .date-holder{top:0}.latestpost li .date-holder
+.day{display:block;font-size:23px;line-height:1em;padding:6px
+0 0 0}.latestpost li .date-holder
+.month{display:block;margin-top:-5px}.latestpost li
+h4{margin-bottom:2px;padding:6px
+0 0 63px;min-height:44px;text-shadow:1px 1px #fff}.latestpost li h4
+a{color:#9f9b9a;text-decoration:none}.latestpost li h4 a:hover{color:#fd8927}.latestpost li
+.link{color:#6c6b6b}.latestpost li .link:hover{color:#fd8927 !important}.latestpost li
+.excerpt{margin:0}.latestpost li:nth-child(2n) .date-holder{background:#addb05}.latestpost li.second .date-holder{background:#addb05}.latestpost li:nth-child(2n) h4 a:hover, .latestpost li:nth-child(2n) .link:hover{color:#addb05 !important}.latestpost li.second h4 a:hover, .latestpost li.second .link:hover{color:#addb05 !important}.latestpost li:nth-child(3n) .date-holder{background:#07b8ef}.latestpost li.third .date-holder{background:#07b8ef}.latestpost li:nth-child(3n) h4 a:hover, .latestpost li:nth-child(3n) .link:hover{color:#07b8ef !important}.latestpost li.third h4 a:hover, .latestpost li.third .link:hover{color:#07b8ef !important}.twitter{position:relative}.twitter_update_list{overflow:hidden}.twitter ul
+li{list-style-type:none;margin:0
+0 15px 0;padding:0
+0 0 37px;font-size:1em;font-weight:normal;text-transform:none;background:url(/east-millcreek/wp-content/themes/theme1619/images/twitter-icon.png) no-repeat 0 0}.twitter ul li .twitt-body{padding:0
+0 5px 0}.twitter ul li .twitt-body
+a{font-weight:bold}.twitter ul li
+a.timesince{font-size:11px}.twitter
+.preloader{position:absolute;top:40px;left:0;height:25px;line-height:25px;padding-left:30px;background-position:0 50%;background-repeat:no-repeat;background-image:url(/east-millcreek/wp-content/themes/theme1619/images/loading-twitter.gif)}.flickrImages{overflow:hidden;position:relative}.flickrImages
+a{float:left;display:block;width:75px;height:75px;background:#000;margin:0
+1px 1px 0}.flickrImages a
+img{-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease}.flickrImages a:hover
+img{opacity: .5}.flickrImages
+a.link{display:inline;float:none;width:auto;height:auto;margin:0;background:none}.banners-holder{list-style-type:none;padding:0;margin:0}.banners-holder
+li{list-style-type:none;float:left;margin:0
+3px 3px 0;padding:0}.banners-holder li
+img{vertical-align:top;float:left}article.testimonial{border:1px
+solid #fff;padding:30px
+30px 30px 235px;width:auto;background:url(/east-millcreek/wp-content/themes/theme1619/images/quotes.png) no-repeat 170px 20px #e2e0e0;font-family:Georgia,"Times New Roman",Times,serif;font-style:italic;font-size:14px;line-height:1.5em;font-weight:normal;margin-bottom:35px}article.testimonial .featured-thumbnail{position:absolute;left:20px;top:20px}article.testimonial .name-testi{display:block;text-align:right;font-style:normal;color:#222c36;font-size:13px;font-family:Arial,Helvetica,sans-serif;line-height:1.2em}article.testimonial .name-testi
+a{text-decoration:none;color:#fd8927}article.testimonial .name-testi a:hover{text-decoration:underline}.testi-single{font-family:Georgia,"Times New Roman",Times,serif;border:1px
+solid #eee;padding:30px
+30px 30px 235px;width:auto;background:url(/east-millcreek/wp-content/themes/theme1619/images/quotes.png) no-repeat 170px 20px;font-size:14px;line-height:1.5em;font-style:italic;margin:0
+0 2em 0;position:relative}.testi-single
+p{margin:0
+0 1em 0;padding:0}.testi-single .featured-thumbnail{position:absolute;left:20px;top:20px}.recent-posts{margin:0;padding:0;width:100%;overflow:hidden;border:none}.recent-posts
+li{list-style-type:none;margin:0
+0 20px 0;padding:0;border:none;background:none;font-size:1em;font-weight:normal;text-transform:none}.recent-posts li
+img.thumb{float:left;margin:0
+20px 0 0}.recent-posts li
+h5{font-size:1em;margin-bottom:0}.recent-posts li
+.excerpt{margin-bottom:1.5em}.recent-posts li
+span.meta{display:block;margin-bottom: .5em;font-size:10px;color:#888;text-transform:uppercase;overflow:hidden}.recent-posts li .post-date{float:left}.recent-posts li .post-comments{float:right}.recent-posts .format-image{float:left;margin:0
+20px 20px 0}.recent-posts .format-audio{margin-bottom:2em}.recent-posts .format-audio .audio-wrapper{margin-bottom: .5em}.recent-posts .format-video{float:left;width:300px;margin:0
+20px 20px 0}.recent-posts .format-video
+iframe{width:300px;height:200px}.recent-posts.team{margin:0;padding:0}.recent-posts.team
+li{float:left;width:140px;overflow:hidden;margin:0
+20px 20px 0}.recent-posts.team li:nth-child(6n){margin-right:0}.recent-posts.team
+li.nomargin{margin-right:0}.recent-posts.team li .featured-thumbnail{margin:0
+0 14px 0}.recent-posts.team li
+.excerpt{margin-bottom:0}.recent-posts.team li
+h5{font-size:15px;line-height:1.2em;text-transform:uppercase;font-family:'Open Sans',sans-serif;font-weight:700;margin:0
+0 .7em 0;text-shadow:1px 1px #fff}.recent-posts.team li h5
+a{color:#9f9b9a;text-decoration:none}.recent-posts.team li h5 a:hover{color:#fd8927}.popular_posts{list-style-type:none;padding:0;margin:0}.popular_posts
+li{list-style-type:none;padding:0
+0 20px 0;margin:0;overflow:hidden}.tags-cloud a, .tagcloud a, .post-footer
+a{display:inline-block;background:#e0e0e0;padding:2px
+7px;text-decoration:none;color:#838383;margin:0
+1px 4px 0;font-size:11px !important;box-shadow:1px 1px 0 rgba(0, 0, 0, 0.2);line-height:1.5em;vertical-align:top}.tags-cloud a:hover, .tagcloud a:hover, .post-footer a:hover{background:#fd8927;color:#fff}.recent-comments{list-style-type:none;padding:0;margin:0}.recent-comments
+li{padding:0;margin:0;border:none;padding-bottom: .5em}#footer{height:105px;position:relative;z-index:3;margin-top:-105px;overflow:hidden;background:#747474 url(/east-millcreek/wp-content/themes/theme1619/images/footer-bg.gif) 0 0 repeat-x;font-size:12px;color:#fff}#footer
+.indent{padding:42px
+0 20px 0}#footer
+a{color:#fff;text-decoration:none}#footer a:hover{color:#fd8927;text-decoration:underline}#footer .site-name{display:inline-block;font-family:'Luckiest Guy',cursive;font-size:24px;line-height:1.2em;color:#eae8e8;vertical-align:top;position:relative;top:-6px;padding-right:3px;text-shadow:3px 3px 5px rgba(0,0,0,0.3)}#widget-footer{float:right}#widget-footer
+h4{display:none}#widget-footer .social-networks{margin:0;padding:0}#widget-footer .social-networks
+li{list-style-type:none;padding:0;margin:0
+0 0 10px;float:left;background:none}#footer-text{float:left;padding-top:4px}.button{display:inline-block;position:relative;padding:6px
+15px;font-size:14px;font-family:'Open Sans',sans-serif;font-weight:700;background:#676767 url(/east-millcreek/wp-content/themes/theme1619/images/button-bg.gif) 0 0 repeat-x;color:#fff;text-transform:uppercase;text-decoration:none;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}.button:before{content:"";display:block;position:absolute;left:50%;bottom:-20px;margin-left:-48px;width:96px;height:23px;background:url(/east-millcreek/wp-content/themes/theme1619/images/button-shadow.png) 0 0 no-repeat}.button:hover{color:#fff;text-decoration:none;background:#fd9b2d;background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #fd9b2d), color-stop(1, #fc7821));background:-ms-linear-gradient(bottom, #fd9b2d, #fc7821);background:-moz-linear-gradient(center bottom, #fd9b2d 0%, #fc7821 100%)}.link, .reply
+a{font-size:11px;text-transform:uppercase;font-weight:bold;color:#6c6b6b;text-decoration:underline}.link:hover, .reply a:hover{text-decoration:underline;color:#fd8927}.lightbox{display:block;position:relative}#back-top-wrapper{position:fixed}#back-top{position:fixed;bottom:156px;left:50%;margin-left:530px;display:none}#back-top
+a{display:block;width:50px;height:45px;line-height:50px;background:url(/east-millcreek/wp-content/themes/theme1619/images/top.png) 0 -50px no-repeat;font-size:11px;color:#fff;font-weight:bold;text-transform:uppercase;text-align:center;padding-top:5px}#back-top a:hover{color:#fff;text-decoration:none;background-position:0 0}.tabs{margin:1px
+0 20px 0}.tabs .tab-wrapper{border:1px
+solid #ddd;border-radius:0 5px 5px 5px;-moz-border-radius:0 5px 5px 5px;-webkit-border-radius:0 5px 5px 5px;margin:-1px 0 0 0}.tabs .tab-menu
+ul{list-style:none;margin:0
+!important;padding:0
+!important}.tabs .tab-menu
+li{display:inline;float:left;margin:0;padding:0}.tabs .tab-menu
+a{background-color:#fafafa;border:1px
+solid #ddd;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;color:#aaa;display:block;font-size:12px;letter-spacing:1px;margin:0
+2px 0 0;padding:8px
+20px}.tabs .tab-menu a:hover{background-color:#f2f2f2;color:#666}.tabs .tab-menu
+a.active{background-color:#fff;filter:progid:dximagetransform.microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#fafafa');background:-moz-linear-gradient(bottom, #fafafa 0px, #f6f6f6 90%) repeat scroll 0 0 transparent;background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #fafafa), color-stop(90%, #f6f6f6));border-bottom:none;color:#666;padding:8px
+20px 9px 20px}.tabs
+.tab{background-color:#fafafa;border-radius:0 5px 5px 5px;-moz-border-radius:0 5px 5px 5px;-webkit-border-radius:0 5px 5px 5px;padding:20px}.toggle{padding:0
+0 2px 0}.toggle
+.trigger{background-color:#f5f5f5;background:-moz-linear-gradient(bottom, #f2f2f2 0px, #fff 100%);background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #f2f2f2), color-stop(1, #ffffff));border:1px
+solid #ddd;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;color:#666;display:block;padding:10px
+12px 10px 40px;position:relative;text-decoration:none;height:1%}.toggle .trigger
+span{background:url(/east-millcreek/wp-content/themes/theme1619/includes/images/toggle.png) 0 0 no-repeat;display:block;position:absolute;top:9px;left:10px;text-indent:-9999px;width:22px;height:20px}.toggle .trigger:hover, .toggle
+.active{background:#191919;color:#fff}.toggle .active
+span{background-position:0 -20px}.toggle
+.box{background-color:#fafafa;border:1px
+solid #ddd;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;padding:20px}.dropcap{display:block;float:left;margin:-6px 14px 5px 0;text-transform:uppercase;width:50px;height:50px;background:#fd8927;font-size:23px;line-height:50px;color:#fff;text-align:center;font-family:'Open Sans',sans-serif;font-weight:700;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}.dropcap.orange{background:#fd8927}.dropcap.green{background:#addb05}.dropcap.blue{background:#07b8ef}.dropcap.yellow{background:#fcd001}.dropcap.red{background:#f5533e}.hr{height:1px;background:#d8d3ce;overflow:hidden;font-size:0;line-height:0;margin:30px
+5px}.grid_1 .hr,
+.grid_2 .hr,
+.grid_3 .hr,
+.grid_4 .hr,
+.grid_5 .hr,
+.grid_6 .hr,
+.grid_7 .hr,
+.grid_8 .hr,
+.grid_9 .hr,
+.grid_10 .hr,
+.grid_11 .hr,
+.grid_12
+.hr{margin-left:0;margin-right:0}.sm_hr{height:1px;background:#d8d3ce;overflow:hidden;font-size:0;line-height:0;margin:18px
+10px;clear:both}.grid_1 .sm_hr,
+.grid_2 .sm_hr,
+.grid_3 .sm_hr,
+.grid_4 .sm_hr,
+.grid_5 .sm_hr,
+.grid_6 .sm_hr,
+.grid_7 .sm_hr,
+.grid_8 .sm_hr,
+.grid_9 .sm_hr,
+.grid_10 .sm_hr,
+.grid_11 .sm_hr,
+.grid_12
+.sm_hr{margin-left:0;margin-right:0}.spacer{height:40px;overflow:hidden;font-size:0;line-height:0}.address{overflow:hidden;width:100%;margin:0;padding:0}.address
+dt{float:left;width:165px;margin-right:20px;padding:0
+0 0 55px;background:none;font-size:1em;line-height:20px;background:url(/east-millcreek/wp-content/themes/theme1619/images/address-icon1.png) no-repeat 0 3px}.address
+dd{float:left;width:217px;padding:0
+0 0 53px;background:url(/east-millcreek/wp-content/themes/theme1619/images/address-icon2.png) no-repeat 0 3px}.address dd
+ul{list-style-type:none;padding:0;margin:0}.address dd ul
+li{background:none;padding:0;margin:0;font-size:1em;text-transform:none;font-weight:normal}.address dd
+span{float:left;width:100px}.address dd
+a{font-style:italic;color:#191919;text-decoration:underline}.address dd a:hover{text-decoration:none}.video-wrap{margin-bottom:10px;position:relative;zoom:1}.video-wrap
+object{position:relative;z-index:2}.video-bg{background-color:black;position:absolute;left:0;top:0;z-index:1}.audio-wrapper{margin-bottom:1.5em}.audio-desc{font-size: .91em;color:#999;padding: .5em 0 0 0}.audiojs
+audio{position:absolute;left:-1px}.audiojs{width:460px;height:36px;background:#404040;overflow:hidden;font-family:monospace;font-size:12px;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #444444), color-stop(0.5, #555555), color-stop(0.51, #444444), color-stop(1, #444444));background-image:-moz-linear-gradient(center top, #444 0%, #555 50%, #444 51%, #444 100%);-webkit-box-shadow:1px 1px 8px rgba(0, 0, 0, 0.3);-moz-box-shadow:1px 1px 8px rgba(0, 0, 0, 0.3);-o-box-shadow:1px 1px 8px rgba(0, 0, 0, 0.3);box-shadow:1px 1px 8px rgba(0, 0, 0, 0.3)}.audiojs .play-pause{width:25px;height:40px;padding:4px
+6px;margin:0px;float:left;overflow:hidden;border-right:1px solid #000}.audiojs
+p{display:none;width:25px;height:40px;margin:0px;cursor:pointer}.audiojs
+.play{display:block}.audiojs
+.scrubber{position:relative;float:left;width:280px;background:#5a5a5a;height:14px;margin:10px;border-top:1px solid #3f3f3f;border-left:0px;border-bottom:0px;overflow:hidden}.audiojs
+.progress{position:absolute;top:0px;left:0px;height:14px;width:0px;background:#ccc;z-index:1;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #cccccc), color-stop(0.5, #dddddd), color-stop(0.51, #cccccc), color-stop(1, #cccccc));background-image:-moz-linear-gradient(center top, #ccc 0%, #ddd 50%, #ccc 51%, #ccc 100%)}.audiojs
+.loaded{position:absolute;top:0px;left:0px;height:14px;width:0px;background:#000;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #222222), color-stop(0.5, #333333), color-stop(0.51, #222222), color-stop(1, #222222));background-image:-moz-linear-gradient(center top, #222 0%, #333 50%, #222 51%, #222 100%)}.audiojs
+.time{float:left;height:36px;line-height:36px;margin:0px
+0px 0px 6px;padding:0px
+6px 0px 12px;border-left:1px solid #000;color:#ddd;text-shadow:1px 1px 0px rgba(0, 0, 0, 0.5)}.audiojs .time
+em{padding:0px
+2px 0px 0px;color:#f9f9f9;font-style:normal}.audiojs .time
+strong{padding:0px
+0px 0px 2px;font-weight:normal}.audiojs .error-message{float:left;display:none;margin:0px
+10px;height:36px;width:400px;overflow:hidden;line-height:36px;white-space:nowrap;color:#fff;text-overflow:ellipsis;-o-text-overflow:ellipsis;-icab-text-overflow:ellipsis;-khtml-text-overflow:ellipsis;-moz-text-overflow:ellipsis;-webkit-text-overflow:ellipsis}.audiojs .error-message
+a{color:#eee;text-decoration:none;padding-bottom:1px;border-bottom:1px solid #999;white-space:wrap}.audiojs
+.play{background:url(/east-millcreek/wp-content/themes/theme1619/js/audiojs/player-graphics.gif) -2px -1px no-repeat}.audiojs
+.loading{background:url(/east-millcreek/wp-content/themes/theme1619/js/audiojs/player-graphics.gif) -2px -31px no-repeat}.audiojs
+.error{background:url(/east-millcreek/wp-content/themes/theme1619/js/audiojs/player-graphics.gif) -2px -61px no-repeat}.audiojs
+.pause{background:url(/east-millcreek/wp-content/themes/theme1619/js/audiojs/player-graphics.gif) -2px -91px no-repeat}.playing .play, .playing .loading, .playing
+.error{display:none}.playing
+.pause{display:block}.loading .play, .loading .pause, .loading
+.error{display:none}.loading
+.loading{display:block}.error .time,
+.error .play,
+.error .pause,
+.error .scrubber,
+.error
+.loading{display:none}.error
+.error{display:block}.error .play-pause
+p{cursor:auto}.error .error-message{display:block}.alert-box,.wpcf7-response-output{padding:20px
+20px 20px 90px !important;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;font-size: .91em;line-height:1.4em;border:1px
+solid #dbdbdb;font-family:Arial,Helvetica,sans-serif;margin-bottom:15px}.error-box,.wpcf7-mail-sent-ng{border-color:#f99;color:#c31b00;background:url(/east-millcreek/wp-content/themes/theme1619/images/icons/alert/icon-error.png) no-repeat 20px 50% #fcc}.attention-box,.wpcf7-validation-errors,.wpcf7-spam-blocked{border-color:#e6c555;color:#9e660d;background:url(/east-millcreek/wp-content/themes/theme1619/images/icons/alert/icon-note.png) no-repeat 20px 50% #fdebae}.notice-box{border-color:#68a2cf;color:#2e6093;background:url(/east-millcreek/wp-content/themes/theme1619/images/icons/alert/icon-info.png) no-repeat 20px 50% #bfe4f9}.approved-box,.wpcf7-mail-sent-ok{border-color:#a3c159;color:#5e6f33;background:url(/east-millcreek/wp-content/themes/theme1619/images/icons/alert/icon-download.png) no-repeat 20px 50% #cf9}input,select,textarea{font-family:Arial,Helvetica,sans-serif;font-size:1em;vertical-align:middle;font-weight:normal;border:1px
+solid #dbdbdb;outline:none}input[type="text"],textarea{background:#e7e6e6;border:1px
+solid #d4d3d3;padding:7px
+9px;color:#7a706e}input[type="submit"],input[type="reset"]{display:inline-block;border:none;position:relative;padding:0
+15px;height:32px;line-height:32px;font-size:14px;font-family:'Open Sans',sans-serif;font-weight:700;background:#676767 url(/east-millcreek/wp-content/themes/theme1619/images/button-bg.gif) 0 0 repeat-x;color:#fff;text-transform:uppercase;text-decoration:none;margin-right:6px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}input[type="submit"]:before,input[type="reset"]:before{content:"";display:block;position:absolute;left:50%;bottom:-20px;margin-left:-48px;width:96px;height:23px;background:url(/east-millcreek/wp-content/themes/theme1619/images/button-shadow.png) 0 0 no-repeat}input[type="submit"]:hover,input[type="reset"]:hover{background:#fd9b2d;background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #fd9b2d), color-stop(1, #fc7821));background:-ms-linear-gradient(bottom, #fd9b2d, #fc7821);background:-moz-linear-gradient(center bottom, #fd9b2d 0%, #fc7821 100%)}#commentform{overflow:hidden}#commentform
+p.field{margin-bottom:10px}#commentform
+small{color:#8b8b8b}#commentform
+label{display:block}#commentform input[type="text"]{width:280px}#commentform
+textarea{width:490px;max-width:490px;min-width:490px;height:130px;min-height:130px;overflow:auto}.wpcf7-form
+p.field{margin-bottom:9px;overflow:hidden;vertical-align:top;width:380px;position:relative}.wpcf7-form p.field
+label{float:left;width:79px;padding-top:6px}.wpcf7-form p.field
+input{float:left;width:280px}.wpcf7-form p.field
+small{color:red}.wpcf7-form
+textarea{float:left;width:280px;max-width:280px;min-width:280px;height:245px;min-height:245px;overflow:auto;margin-bottom:17px}.wpcf7-form .submit-wrap{padding:0
+0 0 79px;margin:0}span.wpcf7-form-control-wrap{display:block}.wpcf7-not-valid-tip{width:287px !important;position:absolute;left:79px !important;top:0 !important;padding:4px
+0 4px 10px !important;background:#f3b7b7 !important;color:red !important;border:1px
+solid red !important}#searchform
+.searching{width:170px;margin-right:10px}.one_half{width:48%}.one_third{width:30.66%}.two_third{width:65.33%}.one_fourth{width:22%}.three_fourth{width:74%}.one_fifth{width:16.8%}.two_fifth{width:37.6%}.three_fifth{width:58.4%}.four_fifth{width:79.2%}.one_sixth{width:13.33%}.five_sixth{width:82.67%}.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth{position:relative;margin-right:4%;float:left}.last{margin-right:0 !important;clear:right}.fleft{float:left}.fright{float:right}.clear{clear:both}.wrapper{width:100%;overflow:hidden}.extra-wrap{overflow:hidden}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}.clearfix{display:inline-block}* html
+.clearfix{height:1%}.clearfix{display:block}div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_bottom .pp_middle,div.pp_default .pp_bottom
+.pp_right{height:13px}div.pp_default .pp_top
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) -78px -93px no-repeat}div.pp_default .pp_top
+.pp_middle{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite_x.png) top left repeat-x}div.pp_default .pp_top
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) -112px -93px no-repeat}div.pp_default .pp_content
+.ppt{color:#f8f8f8}div.pp_default .pp_content_container
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;padding-left:13px}div.pp_default .pp_content_container
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite_y.png) top right repeat-y;padding-right:13px}div.pp_default .pp_next:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite_next.png) center right no-repeat;cursor:pointer}div.pp_default .pp_previous:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite_prev.png) center left no-repeat;cursor:pointer}div.pp_default
+.pp_expand{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;cursor:pointer;width:28px;height:28px}div.pp_default .pp_expand:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;cursor:pointer}div.pp_default
+.pp_contract{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;cursor:pointer;width:28px;height:28px}div.pp_default .pp_contract:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;cursor:pointer}div.pp_default
+.pp_close{width:30px;height:30px;background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;cursor:pointer}div.pp_default .pp_gallery ul li
+a{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;border:1px
+solid #aaa}div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery
+a.pp_arrow_next{position:static;left:auto}div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav
+.pp_pause{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;height:30px;width:30px}div.pp_default .pp_nav
+.pp_pause{background-position:-51px -29px}div.pp_default a.pp_arrow_previous,div.pp_default
+a.pp_arrow_next{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;height:20px;width:20px;margin:4px
+0 0}div.pp_default
+a.pp_arrow_next{left:52px;background-position:-82px -3px}div.pp_default .pp_content_container
+.pp_details{margin-top:5px}div.pp_default
+.pp_nav{clear:none;height:30px;width:105px;position:relative}div.pp_default .pp_nav
+.currentTextHolder{font-family:Georgia;font-style:italic;font-color:#999;font-size:11px;left:75px;line-height:25px;position:absolute;top:2px;margin:0;padding:0
+0 0 10px}div.pp_default .pp_close:hover,div.pp_default .pp_nav .pp_play:hover,div.pp_default .pp_nav .pp_pause:hover,div.pp_default .pp_arrow_next:hover,div.pp_default .pp_arrow_previous:hover{opacity:0.7}div.pp_default
+.pp_description{font-size:11px;font-weight:700;line-height:14px;margin:5px
+50px 5px 0}div.pp_default .pp_bottom
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) -78px -127px no-repeat}div.pp_default .pp_bottom
+.pp_middle{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite_x.png) bottom left repeat-x}div.pp_default .pp_bottom
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/sprite.png) -112px -127px no-repeat}div.pp_default
+.pp_loaderIcon{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/default/loader.gif) center center no-repeat}div.light_rounded .pp_top
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat}div.light_rounded .pp_top
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat}div.light_rounded .pp_next:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;cursor:pointer}div.light_rounded .pp_previous:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;cursor:pointer}div.light_rounded
+.pp_expand{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;cursor:pointer}div.light_rounded .pp_expand:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;cursor:pointer}div.light_rounded
+.pp_contract{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;cursor:pointer}div.light_rounded .pp_contract:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;cursor:pointer}div.light_rounded
+.pp_close{width:75px;height:22px;background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;cursor:pointer}div.light_rounded .pp_nav
+.pp_play{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;height:15px;width:14px}div.light_rounded .pp_nav
+.pp_pause{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;height:15px;width:14px}div.light_rounded
+.pp_arrow_previous{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat}div.light_rounded
+.pp_arrow_next{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat}div.light_rounded .pp_bottom
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat}div.light_rounded .pp_bottom
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat}div.dark_rounded .pp_top
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat}div.dark_rounded .pp_top
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat}div.dark_rounded .pp_content_container
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y}div.dark_rounded .pp_content_container
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y}div.dark_rounded .pp_next:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;cursor:pointer}div.dark_rounded .pp_previous:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;cursor:pointer}div.dark_rounded
+.pp_expand{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;cursor:pointer}div.dark_rounded .pp_expand:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;cursor:pointer}div.dark_rounded
+.pp_contract{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;cursor:pointer}div.dark_rounded .pp_contract:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;cursor:pointer}div.dark_rounded
+.pp_close{width:75px;height:22px;background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;cursor:pointer}div.dark_rounded
+.pp_description{margin-right:85px;color:#fff}div.dark_rounded .pp_nav
+.pp_play{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;height:15px;width:14px}div.dark_rounded .pp_nav
+.pp_pause{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;height:15px;width:14px}div.dark_rounded
+.pp_arrow_previous{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat}div.dark_rounded
+.pp_arrow_next{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat}div.dark_rounded .pp_bottom
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat}div.dark_rounded .pp_bottom
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat}div.dark_rounded
+.pp_loaderIcon{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat}div.dark_square .pp_left,div.dark_square .pp_middle,div.dark_square .pp_right,div.dark_square
+.pp_content{background:#000}div.dark_square
+.pp_description{color:#fff;margin:0
+85px 0 0}div.dark_square
+.pp_loaderIcon{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/loader.gif) center center no-repeat}div.dark_square
+.pp_expand{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;cursor:pointer}div.dark_square .pp_expand:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;cursor:pointer}div.dark_square
+.pp_contract{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;cursor:pointer}div.dark_square .pp_contract:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;cursor:pointer}div.dark_square
+.pp_close{width:75px;height:22px;background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;cursor:pointer}div.dark_square
+.pp_nav{clear:none}div.dark_square .pp_nav
+.pp_play{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;height:15px;width:14px}div.dark_square .pp_nav
+.pp_pause{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;height:15px;width:14px}div.dark_square
+.pp_arrow_previous{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat}div.dark_square
+.pp_arrow_next{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat}div.dark_square .pp_next:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;cursor:pointer}div.dark_square .pp_previous:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;cursor:pointer}div.light_square
+.pp_expand{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;cursor:pointer}div.light_square .pp_expand:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;cursor:pointer}div.light_square
+.pp_contract{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;cursor:pointer}div.light_square .pp_contract:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;cursor:pointer}div.light_square
+.pp_close{width:75px;height:22px;background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;cursor:pointer}div.light_square .pp_nav
+.pp_play{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;height:15px;width:14px}div.light_square .pp_nav
+.pp_pause{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;height:15px;width:14px}div.light_square
+.pp_arrow_previous{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat}div.light_square
+.pp_arrow_next{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat}div.light_square .pp_next:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/btnNext.png) center right no-repeat;cursor:pointer}div.light_square .pp_previous:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;cursor:pointer}div.facebook .pp_top
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat}div.facebook .pp_top
+.pp_middle{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x}div.facebook .pp_top
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat}div.facebook .pp_content_container
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y}div.facebook .pp_content_container
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y}div.facebook
+.pp_expand{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;cursor:pointer}div.facebook .pp_expand:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;cursor:pointer}div.facebook
+.pp_contract{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;cursor:pointer}div.facebook .pp_contract:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;cursor:pointer}div.facebook
+.pp_close{width:22px;height:22px;background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;cursor:pointer}div.facebook
+.pp_description{margin:0
+37px 0 0}div.facebook
+.pp_loaderIcon{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/loader.gif) center center no-repeat}div.facebook
+.pp_arrow_previous{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;height:22px;margin-top:0;width:22px}div.facebook
+.pp_arrow_previous.disabled{background-position:0 -96px;cursor:default}div.facebook
+.pp_arrow_next{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;height:22px;margin-top:0;width:22px}div.facebook
+.pp_arrow_next.disabled{background-position:-32px -96px;cursor:default}div.facebook
+.pp_nav{margin-top:0}div.facebook .pp_nav
+p{font-size:15px;padding:0
+3px 0 4px}div.facebook .pp_nav
+.pp_play{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;height:22px;width:22px}div.facebook .pp_nav
+.pp_pause{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;height:22px;width:22px}div.facebook .pp_next:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/btnNext.png) center right no-repeat;cursor:pointer}div.facebook .pp_previous:hover{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;cursor:pointer}div.facebook .pp_bottom
+.pp_left{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat}div.facebook .pp_bottom
+.pp_middle{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x}div.facebook .pp_bottom
+.pp_right{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat}div.pp_pic_holder a:focus{outline:none}div.pp_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:9500}div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:10000}.pp_content{height:40px;min-width:40px}* html
+.pp_content{width:40px}.pp_content_container{position:relative;text-align:left;width:100%}.pp_content_container
+.pp_left{padding-left:20px}.pp_content_container
+.pp_right{padding-right:20px}.pp_content_container
+.pp_details{float:left;margin:10px
+0 2px}.pp_description{display:none;margin:0}.pp_social{float:left;margin:7px
+0 0}.pp_social
+.facebook{float:left;position:relative;top:-1px;margin-left:5px;width:55px;overflow:hidden}.pp_social
+.twitter{float:left}.pp_nav{clear:right;float:left;margin:3px
+10px 0 0}.pp_nav
+p{float:left;margin:2px
+4px}.pp_nav .pp_play,.pp_nav
+.pp_pause{float:left;margin-right:4px;text-indent:-10000px}a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-top:3px;overflow:hidden;text-indent:-10000px;width:14px}.pp_hoverContainer{position:absolute;top:0;width:100%;z-index:2000}.pp_gallery{display:none;left:50%;margin-top:-50px;position:absolute;z-index:10000}.pp_gallery
+div{float:left;overflow:hidden;position:relative}.pp_gallery
+ul{float:left;height:35px;position:relative;white-space:nowrap;margin:0
+0 0 5px;padding:0}.pp_gallery ul
+a{border:1px
+rgba(0,0,0,0.5) solid;display:block;float:left;height:33px;overflow:hidden}.pp_gallery ul a
+img{border:0}.pp_gallery
+li{display:block;float:left;margin:0
+5px 0 0;padding:0}.pp_gallery li.default
+a{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;display:block;height:33px;width:50px}.pp_gallery .pp_arrow_previous,.pp_gallery
+.pp_arrow_next{margin-top:7px!important}a.pp_next{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;display:block;float:right;height:100%;text-indent:-10000px;width:49%}a.pp_previous{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;display:block;float:left;height:100%;text-indent:-10000px;width:49%}a.pp_expand,a.pp_contract{cursor:pointer;display:none;height:20px;position:absolute;right:30px;text-indent:-10000px;top:10px;width:20px;z-index:20000}a.pp_close{position:absolute;right:0;top:0;display:block;line-height:22px;text-indent:-10000px}.pp_loaderIcon{display:block;height:24px;left:50%;position:absolute;top:50%;width:24px;margin:-12px 0 0 -12px}#pp_full_res{line-height:1!important}#pp_full_res
+.pp_inline{text-align:left}#pp_full_res .pp_inline
+p{margin:0
+0 15px}div.ppt{color:#fff;display:none;font-size:17px;z-index:9999;margin:0
+0 5px 15px}div.pp_default .pp_content,div.light_rounded
+.pp_content{background-color:#fff}div.pp_default #pp_full_res .pp_inline,div.light_rounded .pp_content .ppt,div.light_rounded #pp_full_res .pp_inline,div.light_square .pp_content .ppt,div.light_square #pp_full_res .pp_inline,div.facebook .pp_content .ppt,div.facebook #pp_full_res
+.pp_inline{color:#000}div.pp_default .pp_gallery ul li a:hover,div.pp_default .pp_gallery ul li.selected a,.pp_gallery ul a:hover,.pp_gallery li.selected
+a{border-color:#fff}div.pp_default .pp_details,div.light_rounded .pp_details,div.dark_rounded .pp_details,div.dark_square .pp_details,div.light_square .pp_details,div.facebook
+.pp_details{position:relative}div.light_rounded .pp_top .pp_middle,div.light_rounded .pp_content_container .pp_left,div.light_rounded .pp_content_container .pp_right,div.light_rounded .pp_bottom .pp_middle,div.light_square .pp_left,div.light_square .pp_middle,div.light_square .pp_right,div.light_square .pp_content,div.facebook
+.pp_content{background:#fff}div.light_rounded .pp_description,div.light_square
+.pp_description{margin-right:85px}div.light_rounded .pp_gallery a.pp_arrow_previous,div.light_rounded .pp_gallery a.pp_arrow_next,div.dark_rounded .pp_gallery a.pp_arrow_previous,div.dark_rounded .pp_gallery a.pp_arrow_next,div.dark_square .pp_gallery a.pp_arrow_previous,div.dark_square .pp_gallery a.pp_arrow_next,div.light_square .pp_gallery a.pp_arrow_previous,div.light_square .pp_gallery
+a.pp_arrow_next{margin-top:12px!important}div.light_rounded .pp_arrow_previous.disabled,div.dark_rounded .pp_arrow_previous.disabled,div.dark_square .pp_arrow_previous.disabled,div.light_square
+.pp_arrow_previous.disabled{background-position:0 -87px;cursor:default}div.light_rounded .pp_arrow_next.disabled,div.dark_rounded .pp_arrow_next.disabled,div.dark_square .pp_arrow_next.disabled,div.light_square
+.pp_arrow_next.disabled{background-position:-22px -87px;cursor:default}div.light_rounded .pp_loaderIcon,div.light_square
+.pp_loaderIcon{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/light_rounded/loader.gif) center center no-repeat}div.dark_rounded .pp_top .pp_middle,div.dark_rounded .pp_content,div.dark_rounded .pp_bottom
+.pp_middle{background:url(/east-millcreek/wp-content/themes/theme1619/images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat}div.dark_rounded .currentTextHolder,div.dark_square
+.currentTextHolder{color:#c4c4c4}div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res
+.pp_inline{color:#fff}.pp_top,.pp_bottom{height:20px;position:relative}* html .pp_top,* html
+.pp_bottom{padding:0
+20px}.pp_top .pp_left,.pp_bottom
+.pp_left{height:20px;left:0;position:absolute;width:20px}.pp_top .pp_middle,.pp_bottom
+.pp_middle{height:20px;left:20px;position:absolute;right:20px}* html .pp_top .pp_middle,* html .pp_bottom
+.pp_middle{left:0;position:static}.pp_top .pp_right,.pp_bottom
+.pp_right{height:20px;left:auto;position:absolute;right:0;top:0;width:20px}.pp_fade,.pp_gallery li.default a
+img{display:none}body{min-width:960px}.container_12{margin-left:auto;margin-right:auto;width:960px}.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12{display:inline;float:left;position:relative;margin-left:10px;margin-right:10px}.push_1,.pull_1,.push_2,.pull_2,.push_3,.pull_3,.push_4,.pull_4,.push_5,.pull_5,.push_6,.pull_6,.push_7,.pull_7,.push_8,.pull_8,.push_9,.pull_9,.push_10,.pull_10,.push_11,.pull_11,.push_12,.pull_12{position:relative}.alpha{margin-left:0}.omega{margin-right:0}.container_12
+.grid_1{width:60px}.container_12
+.grid_2{width:140px}.container_12
+.grid_3{width:220px}.container_12
+.grid_4{width:300px}.container_12
+.grid_5{width:380px}.container_12
+.grid_6{width:460px}.container_12
+.grid_7{width:540px}.container_12
+.grid_8{width:620px}.container_12
+.grid_9{width:700px}.container_12
+.grid_10{width:780px}.container_12
+.grid_11{width:860px}.container_12
+.grid_12{width:940px}.container_12
+.prefix_1{padding-left:80px}.container_12
+.prefix_2{padding-left:160px}.container_12
+.prefix_3{padding-left:240px}.container_12
+.prefix_4{padding-left:320px}.container_12
+.prefix_5{padding-left:400px}.container_12
+.prefix_6{padding-left:480px}.container_12
+.prefix_7{padding-left:560px}.container_12
+.prefix_8{padding-left:640px}.container_12
+.prefix_9{padding-left:720px}.container_12
+.prefix_10{padding-left:800px}.container_12
+.prefix_11{padding-left:880px}.container_12
+.suffix_1{padding-right:80px}.container_12
+.suffix_2{padding-right:160px}.container_12
+.suffix_3{padding-right:240px}.container_12
+.suffix_4{padding-right:320px}.container_12
+.suffix_5{padding-right:400px}.container_12
+.suffix_6{padding-right:480px}.container_12
+.suffix_7{padding-right:560px}.container_12
+.suffix_8{padding-right:640px}.container_12
+.suffix_9{padding-right:720px}.container_12
+.suffix_10{padding-right:800px}.container_12
+.suffix_11{padding-right:880px}.container_12
+.push_1{left:80px}.container_12
+.push_2{left:160px}.container_12
+.push_3{left:240px}.container_12
+.push_4{left:320px}.container_12
+.push_5{left:400px}.container_12
+.push_6{left:480px}.container_12
+.push_7{left:560px}.container_12
+.push_8{left:640px}.container_12
+.push_9{left:720px}.container_12
+.push_10{left:800px}.container_12
+.push_11{left:880px}.container_12
+.pull_1{left:-80px}.container_12
+.pull_2{left:-160px}.container_12
+.pull_3{left:-240px}.container_12
+.pull_4{left:-320px}.container_12
+.pull_5{left:-400px}.container_12
+.pull_6{left:-480px}.container_12
+.pull_7{left:-560px}.container_12
+.pull_8{left:-640px}.container_12
+.pull_9{left:-720px}.container_12
+.pull_10{left:-800px}.container_12
+.pull_11{left:-880px}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:before,.clearfix:after{content:'\0020';display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both}.clearfix{zoom:1}@font-face{font-family:dashicons;src:url(/east-millcreek/wp-includes/fonts/dashicons.eot)}@font-face{font-family:dashicons;src:url(data:application/x-font-woff;charset=utf-8;base64,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) format('woff'),url(/east-millcreek/wp-includes/fonts/dashicons.ttf) format("truetype"),url(/east-millcreek/wp-includes/fonts/dashicons.svg#dashicons) format("svg");font-weight:400;font-style:normal}.dashicons{display:inline-block;width:20px;height:20px;-webkit-font-smoothing:antialiased;font-size:20px;line-height:1;font-family:dashicons;text-decoration:inherit;font-weight:400;font-style:normal;vertical-align:top;-moz-transition:color .1s ease-in 0;-webkit-transition:color .1s ease-in 0;text-align:center}.dashicons-menu:before{content:"\f333"}.dashicons-admin-site:before{content:"\f319"}.dashicons-dashboard:before{content:"\f226"}.dashicons-admin-media:before{content:"\f104"}.dashicons-admin-page:before{content:"\f105"}.dashicons-admin-comments:before{content:"\f101"}.dashicons-admin-appearance:before{content:"\f100"}.dashicons-admin-plugins:before{content:"\f106"}.dashicons-admin-users:before{content:"\f110"}.dashicons-admin-tools:before{content:"\f107"}.dashicons-admin-settings:before{content:"\f108"}.dashicons-admin-network:before{content:"\f112"}.dashicons-admin-generic:before{content:"\f111"}.dashicons-admin-home:before{content:"\f102"}.dashicons-admin-collapse:before{content:"\f148"}.dashicons-admin-links:before,.dashicons-format-links:before{content:"\f103"}.dashicons-admin-post:before,.dashicons-format-standard:before{content:"\f109"}.dashicons-format-image:before{content:"\f128"}.dashicons-format-gallery:before{content:"\f161"}.dashicons-format-audio:before{content:"\f127"}.dashicons-format-video:before{content:"\f126"}.dashicons-format-chat:before{content:"\f125"}.dashicons-format-status:before{content:"\f130"}.dashicons-format-aside:before{content:"\f123"}.dashicons-format-quote:before{content:"\f122"}.dashicons-welcome-write-blog:before,.dashicons-welcome-edit-page:before{content:"\f119"}.dashicons-welcome-add-page:before{content:"\f133"}.dashicons-welcome-view-site:before{content:"\f115"}.dashicons-welcome-widgets-menus:before{content:"\f116"}.dashicons-welcome-comments:before{content:"\f117"}.dashicons-welcome-learn-more:before{content:"\f118"}.dashicons-image-crop:before{content:"\f165"}.dashicons-image-rotate-left:before{content:"\f166"}.dashicons-image-rotate-right:before{content:"\f167"}.dashicons-image-flip-vertical:before{content:"\f168"}.dashicons-image-flip-horizontal:before{content:"\f169"}.dashicons-undo:before{content:"\f171"}.dashicons-redo:before{content:"\f172"}.dashicons-editor-bold:before{content:"\f200"}.dashicons-editor-italic:before{content:"\f201"}.dashicons-editor-ul:before{content:"\f203"}.dashicons-editor-ol:before{content:"\f204"}.dashicons-editor-quote:before{content:"\f205"}.dashicons-editor-alignleft:before{content:"\f206"}.dashicons-editor-aligncenter:before{content:"\f207"}.dashicons-editor-alignright:before{content:"\f208"}.dashicons-editor-insertmore:before{content:"\f209"}.dashicons-editor-spellcheck:before{content:"\f210"}.dashicons-editor-distractionfree:before{content:"\f211"}.dashicons-editor-kitchensink:before{content:"\f212"}.dashicons-editor-underline:before{content:"\f213"}.dashicons-editor-justify:before{content:"\f214"}.dashicons-editor-textcolor:before{content:"\f215"}.dashicons-editor-paste-word:before{content:"\f216"}.dashicons-editor-paste-text:before{content:"\f217"}.dashicons-editor-removeformatting:before{content:"\f218"}.dashicons-editor-video:before{content:"\f219"}.dashicons-editor-customchar:before{content:"\f220"}.dashicons-editor-outdent:before{content:"\f221"}.dashicons-editor-indent:before{content:"\f222"}.dashicons-editor-help:before{content:"\f223"}.dashicons-editor-strikethrough:before{content:"\f224"}.dashicons-editor-unlink:before{content:"\f225"}.dashicons-editor-rtl:before{content:"\f320"}.dashicons-align-left:before{content:"\f135"}.dashicons-align-right:before{content:"\f136"}.dashicons-align-center:before{content:"\f134"}.dashicons-align-none:before{content:"\f138"}.dashicons-lock:before{content:"\f160"}.dashicons-calendar:before{content:"\f145"}.dashicons-visibility:before{content:"\f177"}.dashicons-post-status:before{content:"\f173"}.dashicons-post-trash:before{content:"\f182"}.dashicons-edit:before{content:"\f464"}.dashicons-trash:before{content:"\f458"}.dashicons-arrow-up:before{content:"\f142"}.dashicons-arrow-down:before{content:"\f140"}.dashicons-arrow-left:before{content:"\f141"}.dashicons-arrow-right:before{content:"\f139"}.dashicons-arrow-up-alt:before{content:"\f342"}.dashicons-arrow-down-alt:before{content:"\f346"}.dashicons-arrow-left-alt:before{content:"\f340"}.dashicons-arrow-right-alt:before{content:"\f344"}.dashicons-arrow-up-alt2:before{content:"\f343"}.dashicons-arrow-down-alt2:before{content:"\f347"}.dashicons-arrow-left-alt2:before{content:"\f341"}.dashicons-arrow-right-alt2:before{content:"\f345"}.dashicons-leftright:before{content:"\f229"}.dashicons-sort:before{content:"\f156"}.dashicons-list-view:before{content:"\f163"}.dashicons-exerpt-view:before{content:"\f164"}.dashicons-share:before{content:"\f237"}.dashicons-share1:before{content:"\f237"}.dashicons-share-alt:before{content:"\f240"}.dashicons-share-alt2:before{content:"\f242"}.dashicons-twitter:before{content:"\f301"}.dashicons-rss:before{content:"\f303"}.dashicons-email:before{content:"\f465"}.dashicons-email-alt:before{content:"\f466"}.dashicons-facebook:before{content:"\f304"}.dashicons-facebook-alt:before{content:"\f305"}.dashicons-networking:before{content:"\f325"}.dashicons-googleplus:before{content:"\f462"}.dashicons-hammer:before{content:"\f308"}.dashicons-art:before{content:"\f309"}.dashicons-migrate:before{content:"\f310"}.dashicons-performance:before{content:"\f311"}.dashicons-wordpress:before{content:"\f120"}.dashicons-wordpress-alt:before{content:"\f324"}.dashicons-pressthis:before{content:"\f157"}.dashicons-update:before{content:"\f463"}.dashicons-screenoptions:before{content:"\f180"}.dashicons-info:before{content:"\f348"}.dashicons-cart:before{content:"\f174"}.dashicons-feedback:before{content:"\f175"}.dashicons-cloud:before{content:"\f176"}.dashicons-translation:before{content:"\f326"}.dashicons-tag:before{content:"\f323"}.dashicons-category:before{content:"\f318"}.dashicons-yes:before{content:"\f147"}.dashicons-no:before{content:"\f158"}.dashicons-no-alt:before{content:"\f335"}.dashicons-plus:before{content:"\f132"}.dashicons-minus:before{content:"\f460"}.dashicons-dismiss:before{content:"\f153"}.dashicons-marker:before{content:"\f159"}.dashicons-star-filled:before{content:"\f155"}.dashicons-star-half:before{content:"\f459"}.dashicons-star-empty:before{content:"\f154"}.dashicons-flag:before{content:"\f227"}.dashicons-location:before{content:"\f230"}.dashicons-location-alt:before{content:"\f231"}.dashicons-camera:before{content:"\f306"}.dashicons-images-alt:before{content:"\f232"}.dashicons-images-alt2:before{content:"\f233"}.dashicons-video-alt:before{content:"\f234"}.dashicons-video-alt2:before{content:"\f235"}.dashicons-video-alt3:before{content:"\f236"}.dashicons-vault:before{content:"\f178"}.dashicons-shield:before{content:"\f332"}.dashicons-shield-alt:before{content:"\f334"}.dashicons-sos:before{content:"\f468"}.dashicons-search:before{content:"\f179"}.dashicons-slides:before{content:"\f181"}.dashicons-analytics:before{content:"\f183"}.dashicons-chart-pie:before{content:"\f184"}.dashicons-chart-bar:before{content:"\f185"}.dashicons-chart-line:before{content:"\f238"}.dashicons-chart-area:before{content:"\f239"}.dashicons-groups:before{content:"\f307"}.dashicons-businessman:before{content:"\f338"}.dashicons-id:before{content:"\f336"}.dashicons-id-alt:before{content:"\f337"}.dashicons-products:before{content:"\f312"}.dashicons-awards:before{content:"\f313"}.dashicons-forms:before{content:"\f314"}.dashicons-testimonial:before{content:"\f473"}.dashicons-portfolio:before{content:"\f322"}.dashicons-book:before{content:"\f330"}.dashicons-book-alt:before{content:"\f331"}.dashicons-download:before{content:"\f316"}.dashicons-upload:before{content:"\f317"}.dashicons-backup:before{content:"\f321"}.dashicons-clock:before{content:"\f469"}.dashicons-lightbulb:before{content:"\f339"}.dashicons-desktop:before{content:"\f472"}.dashicons-tablet:before{content:"\f471"}.dashicons-smartphone:before{content:"\f470"}.dashicons-smiley:before{content:"\f328"}#wpadminbar
+*{height:auto;width:auto;margin:0;padding:0;position:static;text-shadow:none;text-transform:none;letter-spacing:normal;font:400 13px/32px "Open Sans",sans-serif;border-radius:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-transition:none;-moz-transition:none;-o-transition:none;transition:none;-webkit-font-smoothing:subpixel-antialiased}.rtl #wpadminbar
+*{font-family:Tahoma,sans-serif}html:lang(he-il) .rtl #wpadminbar
+*{font-family:Arial,sans-serif}#wpadminbar a.ab-item,#wpadminbar>#wp-toolbar span.ab-label,#wpadminbar>#wp-toolbar
+span.noticon{color:#eee}#wpadminbar #wp-admin-bar-site-name a.ab-item,#wpadminbar #wp-admin-bar-my-sites a.ab-item{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#wpadminbar ul li:before,#wpadminbar ul li:after{content:normal}#wpadminbar a,#wpadminbar a:hover,#wpadminbar a img,#wpadminbar a img:hover{outline:0;border:0;text-decoration:none;background:0 0}#wpadminbar a:focus,#wpadminbar a:active,#wpadminbar input[type=text],#wpadminbar input[type=password],#wpadminbar input[type=number],#wpadminbar input[type=search],#wpadminbar input[type=email],#wpadminbar input[type=url],#wpadminbar select,#wpadminbar textarea,#wpadminbar
+div{outline:0}#wpadminbar{direction:ltr;color:#ccc;font:400 13px/32px "Open Sans",sans-serif;height:32px;position:fixed;top:0;left:0;width:100%;min-width:600px;z-index:99999;background:#222}#wpadminbar .ab-sub-wrapper,#wpadminbar ul,#wpadminbar ul
+li{background:0 0;clear:none;list-style:none;margin:0;padding:0;position:relative;text-indent:0;z-index:99999}#wpadminbar ul#wp-admin-bar-root-default>li{margin-right:0}#wpadminbar
+.quicklinks{border-left:1px solid transparent}#wpadminbar .quicklinks
+ul{text-align:left}#wpadminbar
+li{float:left}#wpadminbar .ab-empty-item{outline:0}#wpadminbar .quicklinks .ab-top-secondary>li{float:right}#wpadminbar .quicklinks a,#wpadminbar .quicklinks .ab-empty-item,#wpadminbar .shortlink-input{height:32px;display:block;padding:0
+10px;margin:0}#wpadminbar .quicklinks>ul>li>a{padding:0
+8px 0 7px}#wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{margin:0;padding:0;-webkit-box-shadow:0 3px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px rgba(0,0,0,.2);background:#333;display:none;position:absolute;float:none}#wpadminbar.ie7 .menupop .ab-sub-wrapper,#wpadminbar.ie7 .shortlink-input{top:32px;left:0}#wpadminbar .ab-top-menu>.menupop>.ab-sub-wrapper{min-width:100%}#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper{right:0;left:auto}#wpadminbar .ab-submenu{padding:6px
+0}#wpadminbar .selected .shortlink-input{display:block}#wpadminbar .quicklinks .menupop ul
+li{float:none}#wpadminbar .quicklinks .menupop ul li a
+strong{font-weight:700}#wpadminbar .quicklinks .menupop ul li .ab-item,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li .ab-item,#wpadminbar.nojs .quicklinks .menupop:hover ul li .ab-item,#wpadminbar .shortlink-input{line-height:26px;height:26px;white-space:nowrap;min-width:140px}#wpadminbar .shortlink-input{width:200px}#wpadminbar.nojs li:hover>.ab-sub-wrapper,#wpadminbar li.hover>.ab-sub-wrapper{display:block}#wpadminbar .menupop li:hover>.ab-sub-wrapper,#wpadminbar .menupop li.hover>.ab-sub-wrapper{margin-left:100%;margin-top:-32px}#wpadminbar .ab-top-secondary .menupop li:hover>.ab-sub-wrapper,#wpadminbar .ab-top-secondary .menupop li.hover>.ab-sub-wrapper{margin-left:0;left:inherit;right:100%}#wpadminbar .ab-top-menu>li>.ab-item:focus,#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,#wpadminbar .ab-top-menu>li:hover>.ab-item,#wpadminbar .ab-top-menu>li.hover>.ab-item{background:#333;color:#2ea2cc}#wpadminbar>#wp-toolbar li:hover span.ab-label,#wpadminbar>#wp-toolbar li.hover span.ab-label,#wpadminbar>#wp-toolbar a:focus span.ab-label{color:#2ea2cc}#wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon,#wpadminbar .ab-icon,#wpadminbar .ab-item:before{position:relative;float:left;font:400 20px/1 dashicons;speak:none;padding:4px
+0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-image:none!important;margin-right:6px}#wpadminbar .ab-icon:before,#wpadminbar .ab-item:before,#wpadminbar #adminbarsearch:before{color:#999}#wpadminbar .ab-icon:before,#wpadminbar .ab-item:before,#wpadminbar #adminbarsearch:before{position:relative;-moz-transition:all .1s ease-in-out;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}#wpadminbar .ab-label{display:inline-block;height:32px}#wpadminbar .ab-submenu .ab-item{color:#eee}#wpadminbar .quicklinks .menupop ul li a,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li
+a{color:#eee}#wpadminbar .quicklinks .menupop ul li a:hover,#wpadminbar .quicklinks .menupop ul li a:focus,#wpadminbar .quicklinks .menupop ul li a:hover strong,#wpadminbar .quicklinks .menupop ul li a:focus strong,#wpadminbar .quicklinks .menupop.hover ul li a:hover,#wpadminbar .quicklinks .menupop.hover ul li a:focus,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,#wpadminbar li:hover .ab-icon:before,#wpadminbar li:hover .ab-item:before,#wpadminbar li a:focus .ab-icon:before,#wpadminbar li .ab-item:focus:before,#wpadminbar li.hover .ab-icon:before,#wpadminbar li.hover .ab-item:before,#wpadminbar li:hover #adminbarsearch:before{color:#2ea2cc}#wpadminbar .menupop .menupop>.ab-item:before,#wpadminbar .ab-top-secondary .menupop .menupop>.ab-item:before{position:absolute;font:400 17px/1 dashicons;speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#wpadminbar .menupop .menupop>.ab-item{display:block;padding-right:2em}#wpadminbar .menupop .menupop>.ab-item:before{top:1px;right:4px;content:'\f139';color:inherit}#wpadminbar .ab-top-secondary .menupop .menupop>.ab-item{padding-left:2em;padding-right:1em}#wpadminbar .ab-top-secondary .menupop .menupop>.ab-item:before{top:5px;left:3px;content:'\f141'}#wpadminbar .quicklinks .menupop ul.ab-sub-secondary{display:block;position:relative;right:auto;margin:0;-webkit-box-shadow:none;box-shadow:none}#wpadminbar .quicklinks .menupop ul.ab-sub-secondary,#wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu{background:#4b4b4b}#wpadminbar .quicklinks .menupop .ab-sub-secondary>li>a:hover,#wpadminbar .quicklinks .menupop .ab-sub-secondary>li .ab-item:focus
+a{color:#2ea2cc}#wpadminbar .quicklinks a span#ab-updates{background:#eee;color:#333;display:inline;padding:2px
+5px;font-size:10px;font-weight:700;-webkit-border-radius:10px;border-radius:10px}#wpadminbar .quicklinks a:hover span#ab-updates{background:#fff;color:#000}#wpadminbar .ab-top-secondary{float:right}#wpadminbar ul li:last-child,#wpadminbar ul li:last-child .ab-item{-webkit-box-shadow:none;box-shadow:none}#wp-admin-bar-my-account>ul{min-width:198px}#wp-admin-bar-my-account>.ab-item:before{content:"\f110";top:2px;float:right;margin-left:6px;margin-right:0}#wp-admin-bar-my-account.with-avatar>.ab-item:before{display:none;content:none}#wp-admin-bar-my-account.with-avatar>ul{min-width:270px}#wpadminbar #wp-admin-bar-user-actions>li{margin-left:16px;margin-right:16px}#wpadminbar #wp-admin-bar-user-actions.ab-submenu{padding:6px
+0 12px}#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li{margin-left:88px}#wpadminbar #wp-admin-bar-user-info{margin-top:6px;margin-bottom:15px;height:auto;background:0 0}#wp-admin-bar-user-info
+.avatar{position:absolute;left:-72px;top:4px;width:64px;height:64px}#wpadminbar #wp-admin-bar-user-info
+a{background:0 0;height:auto}#wpadminbar #wp-admin-bar-user-info
+span{background:0 0;padding:0;height:18px}#wpadminbar #wp-admin-bar-user-info .display-name,#wpadminbar #wp-admin-bar-user-info
+.username{display:block}#wpadminbar #wp-admin-bar-user-info
+.username{color:#999;font-size:11px}#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar>a
+img{width:16px;height:16px;padding:0;border:1px
+solid #888;background:#eee;line-height:24px;vertical-align:middle;margin:-4px 0 0 6px;float:none;display:inline}#wpadminbar #wp-admin-bar-wp-logo>.ab-item .ab-icon{width:15px;height:20px;margin-right:0;padding:6px
+0 5px}#wpadminbar #wp-admin-bar-wp-logo>.ab-item{padding:0
+7px}#wpadminbar #wp-admin-bar-wp-logo>.ab-item .ab-icon:before{content:'\f120';top:2px}#wpadminbar .quicklinks li
+.blavatar{float:left;font:400 16px/1 dashicons!important;speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#eee}#wpadminbar .quicklinks li a:hover
+.blavatar{color:#2ea2cc}#wpadminbar .quicklinks li .blavatar:before{content:'\f120';height:16px;width:16px;display:inline-block;margin:6px
+8px 0 -2px}#wpadminbar #wp-admin-bar-appearance{margin-top:-12px}#wpadminbar #wp-admin-bar-my-sites>.ab-item:before,#wpadminbar #wp-admin-bar-site-name>.ab-item:before{content:'\f112';top:2px}#wpadminbar #wp-admin-bar-edit>.ab-item:before{content:'\f464';top:2px}#wpadminbar #wp-admin-bar-site-name>.ab-item:before{content:"\f102"}#wpadminbar #wp-admin-bar-comments .ab-icon{margin-right:6px}#wpadminbar #wp-admin-bar-comments .ab-icon:before{content:'\f101';top:3px}#wpadminbar #wp-admin-bar-comments .count-0{opacity:.5}#wpadminbar #wp-admin-bar-new-content .ab-icon:before{content:'\f132';top:4px}#wpadminbar #wp-admin-bar-updates .ab-icon:before{content:'\f463';top:2px}#wpadminbar #wp-admin-bar-search .ab-item{padding:0;background:transparent}#wpadminbar
+#adminbarsearch{position:relative;height:32px;padding:0
+2px}#wpadminbar #adminbarsearch:before{position:absolute;top:6px;left:5px;z-index:20;font:400 20px/1 dashicons!important;content:'\f179';speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#wpadminbar>#wp-toolbar>#wp-admin-bar-top-secondary>#wp-admin-bar-search #adminbarsearch input.adminbar-input{position:relative;z-index:30;font:13px/24px "Open Sans",sans-serif;height:24px;width:24px;padding:0
+3px 0 24px;margin:0;color:#ccc;background-color:rgba(255,255,255,0);border:0;outline:0;cursor:pointer;-webkit-box-shadow:none;box-shadow:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-transition-duration:400ms;-webkit-transition-property:width,background;-webkit-transition-timing-function:ease;-moz-transition-duration:400ms;-moz-transition-property:width,background;-moz-transition-timing-function:ease;-o-transition-duration:400ms;-o-transition-property:width,background;-o-transition-timing-function:ease}#wpadminbar>#wp-toolbar>#wp-admin-bar-top-secondary>#wp-admin-bar-search #adminbarsearch input.adminbar-input:focus{z-index:10;color:#000;width:200px;background-color:rgba(255,255,255,.9);cursor:text;border:0}#wpadminbar.ie7>#wp-toolbar>#wp-admin-bar-top-secondary>#wp-admin-bar-search #adminbarsearch input.adminbar-input{margin-top:3px;width:120px}#wpadminbar.ie8>#wp-toolbar>#wp-admin-bar-top-secondary>#wp-admin-bar-search #adminbarsearch input.adminbar-input{margin-top:4px;background-color:#464646}#wpadminbar.ie8>#wp-toolbar>#wp-admin-bar-top-secondary>#wp-admin-bar-search #adminbarsearch input.adminbar-input:focus{background-color:#fff}#wpadminbar #adminbarsearch .adminbar-input::-webkit-input-placeholder{color:#999}#wpadminbar #adminbarsearch .adminbar-input:-moz-placeholder{color:#999}#wpadminbar #adminbarsearch .adminbar-input::-moz-placeholder{color:#999}#wpadminbar #adminbarsearch .adminbar-input:-ms-input-placeholder{color:#999}#wpadminbar #adminbarsearch .adminbar-button{display:none}.no-customize-support .hide-if-no-customize,.customize-support .hide-if-customize,.no-customize-support.wp-core-ui .hide-if-no-customize,.no-customize-support .wp-core-ui .hide-if-no-customize,.customize-support.wp-core-ui .hide-if-customize,.customize-support .wp-core-ui .hide-if-customize{display:none}#wpadminbar .screen-reader-text,#wpadminbar .screen-reader-text
+span{position:absolute;left:-1000em;top:-1000em;height:1px;width:1px;overflow:hidden}#wpadminbar .screen-reader-shortcut{position:absolute;top:-1000em}#wpadminbar .screen-reader-shortcut:focus{left:6px;top:7px;height:auto;width:auto;display:block;font-size:14px;font-weight:700;padding:15px
+23px 14px;background:#f1f1f1;color:#21759b;z-index:100000;line-height:normal;text-decoration:none;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6)}* html
+#wpadminbar{overflow:hidden;position:absolute}* html #wpadminbar .quicklinks ul li
+a{float:left}* html #wpadminbar .menupop a
+span{background-image:none}.no-font-face #wpadminbar ul.ab-top-menu>li>a.ab-item{display:block;width:45px;text-align:center;overflow:hidden;margin:0
+3px}.no-font-face #wpadminbar #wp-admin-bar-my-sites>.ab-item,.no-font-face #wpadminbar #wp-admin-bar-site-name>.ab-item,.no-font-face #wpadminbar #wp-admin-bar-edit>.ab-item{text-indent:0}.no-font-face #wpadminbar .ab-icon,.no-font-face #wpadminbar .ab-icon:before,.no-font-face #wpadminbar a.ab-item:before,.no-font-face #wpadminbar #wp-admin-bar-wp-logo>.ab-item{display:none!important}.no-font-face #wpadminbar ul.ab-top-menu>li>a>span.ab-label{display:inline}.no-font-face #wpadminbar #wp-admin-bar-menu-toggle span.ab-icon{display:inline!important}.no-font-face #wpadminbar #wp-admin-bar-menu-toggle span.ab-icon:before{content:"Menu";font:14px/45px sans-serif!important;display:inline-block!important;color:#fff}.no-font-face #wpadminbar #wp-admin-bar-site-name a.ab-item{color:#fff}@media screen and (max-width:782px){html
+#wpadminbar{left:0!important;z-index:500!important;height:46px;min-width:300px}#wpadminbar
+*{font:400 14px/32px "Open Sans",sans-serif}#wpadminbar .quicklinks>ul>li>a,#wpadminbar .quicklinks .ab-empty-item{padding:0;height:46px;line-height:46px;width:auto}#wpadminbar .ab-icon{font:40px/1 dashicons!important;margin:0;padding:0;width:52px;height:46px;text-align:center}#wpadminbar .ab-icon:before{text-align:center}#wpadminbar .ab-submenu{padding:0}#wpadminbar #wp-admin-bar-site-name a.ab-item,#wpadminbar #wp-admin-bar-my-sites a.ab-item,#wpadminbar #wp-admin-bar-my-account a.ab-item{text-overflow:clip}#wpadminbar .ab-label{display:none}#wpadminbar .menupop li:hover>.ab-sub-wrapper,#wpadminbar .menupop li.hover>.ab-sub-wrapper{margin-top:-46px}#wpadminbar .ab-top-menu .menupop .ab-sub-wrapper .menupop>.ab-item{padding-right:30px}#wpadminbar .menupop .menupop>.ab-item:before{top:10px;right:6px}#wpadminbar .ab-top-menu>.menupop>.ab-sub-wrapper .ab-item{font-size:16px;padding:6px
+15px 12px}#wpadminbar .ab-top-menu>.menupop>.ab-sub-wrapper a:empty{display:none}#wpadminbar #wp-admin-bar-wp-logo>.ab-item{padding:0}#wpadminbar #wp-admin-bar-wp-logo>.ab-item .ab-icon{padding:0;width:52px;height:46px;text-align:center;vertical-align:top}#wpadminbar #wp-admin-bar-wp-logo>.ab-item .ab-icon:before{font:28px/1 dashicons!important;top:-3px}#wpadminbar .ab-icon,#wpadminbar .ab-item:before{padding:0}#wpadminbar #wp-admin-bar-my-sites>.ab-item,#wpadminbar #wp-admin-bar-site-name>.ab-item,#wpadminbar #wp-admin-bar-edit>.ab-item,#wpadminbar #wp-admin-bar-my-account>.ab-item{text-indent:100%;white-space:nowrap;overflow:hidden;width:52px;padding:0;color:#999;position:relative}#wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon,#wpadminbar .ab-icon,#wpadminbar .ab-item:before{padding:0;margin-right:0}#wpadminbar #wp-admin-bar-edit>.ab-item:before,#wpadminbar #wp-admin-bar-my-sites>.ab-item:before,#wpadminbar #wp-admin-bar-site-name>.ab-item:before,#wpadminbar #wp-admin-bar-my-account>.ab-item:before{display:block;text-indent:0;font:400 32px/1 dashicons;speak:none;top:7px;width:52px;text-align:center;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#wpadminbar #wp-admin-bar-appearance{margin-top:0}#wpadminbar .quicklinks li .blavatar:before{display:none}#wpadminbar #wp-admin-bar-search{display:none}#wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:0;line-height:53px;height:46px!important;text-align:center;width:52px;display:block}#wpadminbar #wp-admin-bar-updates{text-align:center}#wpadminbar #wp-admin-bar-updates .ab-icon:before{top:3px}#wpadminbar #wp-admin-bar-comments .ab-icon{margin:0}#wpadminbar #wp-admin-bar-comments .ab-icon:before{display:block;font-size:34px;height:46px;line-height:47px;top:0}#wpadminbar #wp-admin-bar-my-account>a{position:relative;white-space:nowrap;text-indent:150%;width:28px;padding:0
+10px;overflow:hidden}#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar>a
+img{position:absolute;top:13px;right:10px;width:26px;height:26px}#wpadminbar #wp-admin-bar-user-actions.ab-submenu{padding:0}#wpadminbar #wp-admin-bar-user-actions.ab-submenu
+img.avatar{display:none}#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li{margin:0}#wpadminbar #wp-admin-bar-user-info .display-name{height:auto;font-size:16px;line-height:24px;color:#eee}#wpadminbar #wp-admin-bar-user-info
+a{padding-top:4px}#wpadminbar #wp-admin-bar-user-info
+.username{line-height:.8!important;margin-bottom:-2px}#wp-toolbar>ul>li{display:none}#wpadminbar li#wp-admin-bar-menu-toggle,#wpadminbar li#wp-admin-bar-wp-logo,#wpadminbar li#wp-admin-bar-my-sites,#wpadminbar li#wp-admin-bar-updates,#wpadminbar li#wp-admin-bar-site-name,#wpadminbar li#wp-admin-bar-new-content,#wpadminbar li#wp-admin-bar-edit,#wpadminbar li#wp-admin-bar-comments,#wpadminbar li#wp-admin-bar-new-content,#wpadminbar li#wp-admin-bar-my-account{display:block}#wpadminbar li:hover ul li,#wpadminbar li.hover ul li,#wpadminbar li:hover ul li:hover ul
+li{display:list-item}#wpadminbar .ab-top-menu>.menupop>.ab-sub-wrapper{min-width:intrinsic;min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content}#wpadminbar ul#wp-admin-bar-root-default>li{margin-right:0}#wpadminbar .ab-top-menu,#wpadminbar .ab-top-secondary,#wpadminbar #wp-admin-bar-wp-logo,#wpadminbar #wp-admin-bar-my-sites,#wpadminbar #wp-admin-bar-site-name,#wpadminbar #wp-admin-bar-updates,#wpadminbar #wp-admin-bar-comments,#wpadminbar #wp-admin-bar-new-content,#wpadminbar #wp-admin-bar-edit,#wpadminbar #wp-admin-bar-my-account{position:static}#wpadminbar #wp-admin-bar-my-account{float:right}.network-admin #wpadminbar ul#wp-admin-bar-top-secondary>li#wp-admin-bar-my-account{margin-right:0}#wpadminbar .ab-top-secondary .menupop .menupop>.ab-item:before{top:10px;left:0}}@media screen and (max-width:600px){#wpadminbar{position:absolute}#wp-responsive-overlay{position:fixed;top:0;left:0;width:100%;height:100%;z-index:400}#wpadminbar .ab-top-menu>.menupop>.ab-sub-wrapper{position:fixed;width:100%;left:0}#wpadminbar .menupop .menupop>.ab-item:before{display:none}#wpadminbar #wp-admin-bar-wp-logo.menupop .ab-sub-wrapper{margin-left:0}#wpadminbar .ab-top-menu>.menupop li>.ab-sub-wrapper{margin:0;width:100%;top:auto;left:auto;position:relative}#wpadminbar .ab-top-menu>.menupop li>.ab-sub-wrapper .ab-item{font-size:16px;padding:6px
+15px 19px 30px}#wpadminbar li:hover ul li ul
+li{display:list-item}#wpadminbar li#wp-admin-bar-wp-logo,#wpadminbar li#wp-admin-bar-updates{display:none}#wpadminbar .ab-top-menu>.menupop li>.ab-sub-wrapper{position:static;-webkit-box-shadow:none;box-shadow:none}}

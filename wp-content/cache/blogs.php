@@ -1,0 +1,1 @@
+return array('acutabovepetsalons.com/murray' => 'm4', 'ACUTABOVEPETSALONS.COM' => 'm1', 'www.ACUTABOVEPETSALONS.COM' => 'm1', 'www.acutabovepetsalons.com' => 'm1', 'acutabovepetsalons.com/east-millcreek' => 'm3', 'acutabovepetsalons.com/pet-grooming-apprenticeship-program' => 'm2', 'acutabovepetsalons.com' => 'm1');
